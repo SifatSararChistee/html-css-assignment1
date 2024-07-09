@@ -417,6 +417,7 @@ opacity: 0.7;
     padding: 64px 48px;
     background-color:rgba(0, 0, 0, 0.5);
     background-blend-mode:darken;
+    margin-bottom: 50px;
 }
 
 .support-content{
@@ -479,3 +480,12 @@ opacity: 0.7;
     font-weight: 400;
 }
 
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    padding: 32px 150px 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin:0 auto;
+}
