@@ -54,7 +54,7 @@ body{
     width: 1440px;
     height: 652px;
     margin: 0 auto;
-    background-size:cover;   
+    background: size 100%;   
 }
 
 .hero-content{
@@ -95,6 +95,123 @@ body{
     background: rgb(13, 19, 33);
     padding: 20px;
 }
+
+/* web-development section */
+
+.web-development{
+    margin:0 auto;
+    width: 1140px;
+    height: 1395px;
+    margin-top: 60px;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background:rgba(13, 19, 33, 0.07)
+
+}
+
+.webdev-container{
+    padding:0;
+}
+.webdev-tittle{
+    text-align: center;
+    padding-bottom: 48px;
+}
+.webdev-tittle h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.webdev-tittle p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* primary-anchor learn more */
+
+.primary-anr{
+    box-sizing: border-box;
+    border: 2px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.webdev-content1{
+display: flex;
+padding: 48px;
+gap: 60px;
+}
+
+.webdev-content2{
+    display:flex;
+}
+
+
+
+.content-text1{
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    align-items:flex-start;
+    padding: 0px;
+}
+
+
+
+
+.content-text1 h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom:20px;
+}
+
+.content-text1 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom:20px;
+}
+
+.img1{
+    width: 259.56px;
+    height: 217.01px;
+    left: 0.36%;
+    right: -0.36%;
+    top: 1.74%;
+    bottom: -1.74%;
+    }
+
+
+    .content-text2{    
+        display: flex;
+        flex-direction:column;
+        justify-content:right;
+        align-items:flex-start;
+        padding: 10px 50px 20px 50px;
+    }
+
+    .content-text2 h3{
+        color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom:20px;
+    }
+
+    .content-text2 p{
+        color: rgb(13, 19, 33);
+        font-size: 16px;
+        font-weight: 400;
+        padding-bottom:20px;
+    }
+
 
 
 
