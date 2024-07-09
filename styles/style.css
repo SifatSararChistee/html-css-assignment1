@@ -16,7 +16,7 @@ body{
 /* navigation section */
 
 .nav-container{
-    margin: 50px 150px 50px 50px;
+    margin: 50px 150px 30px 50px;
 }
 
 .nav-container ul{
@@ -45,8 +45,59 @@ body{
     font-weight: 400;
     text-decoration: none;
     padding: 10px;
-
 }
+
+                   /* hero section */
+
+.hero-container{
+    background-image: url(assets/Hero-bg.png) ;
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-size:cover;   
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px 150px;
+}
+
+.hero-content img{ 
+    width: 240px;
+    height: 240px; 
+    margin-bottom: 30px;  
+}
+
+.hero-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hero-content button{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 20px;
+}
+
+
+
 
 
 
