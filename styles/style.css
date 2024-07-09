@@ -87,13 +87,14 @@ body{
     text-align: center;
 }
 
-.hero-content button{
+.hero-content a{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 500;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 20px;
+    text-decoration: none;
 }
 
 /* web-development section */
