@@ -403,3 +403,79 @@ font-weight: 400;
 padding-bottom: 30px;
 opacity: 0.7;
 }
+
+/* support section */
+
+.support-container{
+    width: 1140px;
+    height: 314px;
+    border-radius: 16px;
+    background-image: url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    margin:0 auto;
+    padding: 64px 48px;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-blend-mode:darken;
+}
+
+.support-content{
+    width: 1044px;
+    height: 186px;
+}
+
+.support-content h1{   
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.support-content p{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 0.7;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.support-area{
+    padding-left: 155px;
+    height: 58px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.support-textarea{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    resize: none;
+    overflow: hidden;
+}
+
+.submitbtn{
+    width: 120px;
+    height: 58px;padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
